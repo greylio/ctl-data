@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    file                 : csraceselectmenu.xml
+    created              : 2009
+    copyright            : (C) 2009 by Brian Gavin, Eckhard M. Jaeger
+    web                  : speed-dreams.sourceforge.net
+-->
+<!--    This program is free software; you can redistribute it and/or modify  -->
+<!--    it under the terms of the GNU General Public License as published by  -->
+<!--    the Free Software Foundation; either version 2 of the License, or     -->
+<!--    (at your option) any later version.                                   -->
+<!--
+
+	Race mode/type selection menu
+
+-->
+<!DOCTYPE params SYSTEM "../tgf/params.dtd">
+<params name="optionsmenu">
+  <section name="dynamic controls">
+    <!--
+
+	Beware with the control names :
+	* "(race manager type)Button"
+	* "(race manager type)Combo"
+	where (race manager type) comes from (racemanager).xml, "type" field in the "Header".
+
+	-->
+    <section name="PracticeButton">
+      <attstr name="type" val="text button"/>
+      <attstr name="show box" val="no"/>
+      <attstr name="text" val="Practice"/>
+      <attstr name="tip" val="A free practice session for one player on one track"/>
+      <attnum name="x" val="200"/>
+      <attnum name="y" val="325"/>
+      <attnum name="width" val="320"/>
+      <attstr name="h align" val="left"/>
+      <attstr name="font" val="big"/>
+      <attstr name="color" val="0xa6a6a6"/>
+      <attstr name="focused color" val="0xFFFFFF"/>
+      <attstr name="pushed color" val="0xFFFFFF"/>
+      <attnum name="image x" val="-48"/>
+      <attnum name="image y" val="0"/>
+      <attnum name="image width" val="320"/>
+      <attnum name="image height" val="34"/>
+      <attstr name="focused image" val="data/img/bg-button-big-focused.png"/>
+      <attstr name="enabled image" val="data/img/bg-button-big.png"/>
+      <attstr name="pushed image" val="data/img/bg-button-big-pushed.png"/>
+    </section>
+    <!-- second button for STANDARDGAME only -->
+    <section name="QuickButton">
+      <attstr name="type" val="text button"/>
+      <attstr name="show box" val="no"/>
+      <attstr name="text" val="Quick Race"/>
+      <attstr name="tip" val="A race on one track, with no qualifying session"/>
+      <attstr name="h align" val="left"/>
+      <attnum name="x" val="200"/>
+      <attnum name="y" val="290"/>
+      <attnum name="width" val="320"/>
+      <attstr name="font" val="big"/>
+      <attstr name="color" val="0xa6a6a6"/>
+      <attstr name="focused color" val="0xFFFFFF"/>
+      <attstr name="pushed color" val="0xFFFFFF"/>
+      <attnum name="image x" val="-48"/>
+      <attnum name="image y" val="0"/>
+      <attnum name="image width" val="320"/>
+      <attnum name="image height" val="34"/>
+      <attstr name="focused image" val="data/img/bg-button-big-focused.png"/>
+      <attstr name="enabled image" val="data/img/bg-button-big.png"/>
+      <attstr name="pushed image" val="data/img/bg-button-big-pushed.png"/>
+    </section>
+    <!-- second button for GENPAROPTV1 only -->
+    <section name="OptimizationMTButton">
+      <attstr name="type" val="text button"/>
+      <attstr name="show box" val="no"/>
+      <attstr name="text" val="Multi Track Optimization"/>
+      <attstr name="tip" val="For getting default setups"/>
+      <attstr name="h align" val="left"/>
+      <attnum name="x" val="200"/>
+      <attnum name="y" val="275"/>
+      <attnum name="width" val="320"/>
+      <attstr name="font" val="big"/>
+      <attstr name="color" val="0xa6a6a6"/>
+      <attstr name="focused color" val="0xFFFFFF"/>
+      <attstr name="pushed color" val="0xFFFFFF"/>
+      <attnum name="image x" val="-48"/>
+      <attnum name="image y" val="0"/>
+      <attnum name="image width" val="320"/>
+      <attnum name="image height" val="34"/>
+      <attstr name="focused image" val="data/img/bg-button-big-focused.png"/>
+      <attstr name="enabled image" val="data/img/bg-button-big.png"/>
+      <attstr name="pushed image" val="data/img/bg-button-big-pushed.png"/>
+    </section>
+    <section name="SingleEventButton">
+      <attstr name="type" val="text button"/>
+      <attstr name="show box" val="no"/>
+      <attstr name="text" val="Single Event"/>
+      <attstr name="tip" val="A race on one track, with various qualifying schemes"/>
+      <attstr name="h align" val="left"/>
+      <attnum name="x" val="200"/>
+      <attnum name="y" val="255"/>
+      <attnum name="width" val="220"/>
+      <attstr name="font" val="big"/>
+      <attstr name="color" val="0xa6a6a6"/>
+      <attstr name="focused color" val="0xFFFFFF"/>
+      <attstr name="pushed color" val="0xFFFFFF"/>
+      <attnum name="image x" val="-48"/>
+      <attnum name="image y" val="0"/>
+      <attnum name="image width" val="320"/>
+      <attnum name="image height" val="34"/>
+      <attstr name="focused image" val="data/img/bg-button-big-focused.png"/>
+      <attstr name="enabled image" val="data/img/bg-button-big.png"/>
+      <attstr name="pushed image" val="data/img/bg-button-big-pushed.png"/>
+    </section>
+    <section name="SingleEventCombo">
+      <attstr name="type" val="combo box"/>
+      <attnum name="max len" val="20"/>
+      <attstr name="tip" val="Select the Single Event race variant"/>
+      <attnum name="x" val="285"/>
+      <attnum name="y" val="231"/>
+      <attnum name="arrows width" val="24"/>
+      <attnum name="arrows height" val="24"/>
+      <attnum name="width" val="170"/>
+      <attstr name="color" val="0xa6a6a6"/>
+      <attstr name="focused color" val="0xFFFFFF"/>
+      <attstr name="font" val="medium"/>
+    </section>
+    <section name="ChampionshipButton">
+      <attstr name="type" val="text button"/>
+      <attstr name="show box" val="no"/>
+      <attstr name="text" val="Championship"/>
+      <attstr name="tip" val="Multi-event whole season championships with qualifying and race sessions"/>
+      <attstr name="h align" val="left"/>
+      <attnum name="x" val="200"/>
+      <attnum name="y" val="195"/>
+      <attnum name="width" val="320"/>
+      <attstr name="font" val="big"/>
+      <attstr name="color" val="0xa6a6a6"/>
+      <attstr name="focused color" val="0xFFFFFF"/>
+      <attstr name="pushed color" val="0xFFFFFF"/>
+      <attnum name="image x" val="-48"/>
+      <attnum name="image y" val="0"/>
+      <attnum name="image width" val="320"/>
+      <attnum name="image height" val="34"/>
+      <attstr name="focused image" val="data/img/bg-button-big-focused.png"/>
+      <attstr name="enabled image" val="data/img/bg-button-big.png"/>
+      <attstr name="pushed image" val="data/img/bg-button-big-pushed.png"/>
+    </section>
+    <section name="ChampionshipCombo">
+      <attstr name="type" val="combo box"/>
+      <attnum name="max len" val="20"/>
+      <attstr name="tip" val="Select the championship variant"/>
+      <attnum name="x" val="285"/>
+      <attnum name="y" val="171"/>
+      <attnum name="arrows width" val="24"/>
+      <attnum name="arrows height" val="24"/>
+      <attnum name="width" val="170"/>
+      <attstr name="color" val="0xa6a6a6"/>
+      <attstr name="focused color" val="0xFFFFFF"/>
+      <attstr name="font" val="medium"/>
+    </section>
+    <section name="BackButton">
+      <attstr name="type" val="text button"/>
+      <attstr name="show box" val="no"/>
+      <attstr name="text" val="Back"/>
+      <attstr name="tip" val="Back to main menu"/>
+      <attstr name="h align" val="left"/>
+      <attnum name="x" val="200"/>
+      <attnum name="y" val="49"/>
+      <attnum name="width" val="320"/>
+      <attstr name="font" val="big"/>
+      <attstr name="color" val="0xa6a6a6"/>
+      <attstr name="focused color" val="0xFFFFFF"/>
+      <attstr name="pushed color" val="0xFFFFFF"/>
+      <attnum name="image x" val="-48"/>
+      <attnum name="image y" val="0"/>
+      <attnum name="image width" val="320"/>
+      <attnum name="image height" val="34"/>
+      <attstr name="focused image" val="data/img/bg-button-big-focused.png"/>
+      <attstr name="enabled image" val="data/img/bg-button-big.png"/>
+      <attstr name="pushed image" val="data/img/bg-button-big-pushed.png"/>
+    </section>
+  </section>
+  <section name="static controls">
+    <section name="1">
+      <attstr name="type" val="static image"/>
+      <attnum name="x" val="-10"/>
+      <attnum name="y" val="375"/>
+      <attnum name="width" val="130"/>
+      <attnum name="height" val="95"/>
+      <attstr name="image" val="data/img/sd-logo-big.png"/>
+    </section>
+    <section name="2">
+      <attstr name="type" val="background image"/>
+      <attstr name="image" val="data/img/splash-raceselect.jpg"/>
+    </section>
+    <section name="3">
+      <attstr name="type" val="label"/>
+      <attstr name="text" val="Select a racing mode"/>
+      <attnum name="x" val="300"/>
+      <attnum name="y" val="430"/>
+      <attnum name="width" val="400"/>
+      <attstr name="color" val="0xFFFFFF"/>
+      <attstr name="font" val="medium_t"/>
+      <attstr name="h align" val="left"/>
+      <attstr name="bg image" val="data/img/header-background.png"/>
+      <attnum name="bg image padding top" val="15"/>
+      <attnum name="bg image padding bottom" val="15"/>
+      <attnum name="bg image padding left" val="30"/>
+      <attnum name="bg image padding right" val="15"/>
+    </section>
+  </section>
+</params>
