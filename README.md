@@ -1,6 +1,6 @@
 # ChargeTrack Legends - Game Data
 
-![Speed Dreams logo](/data/data/img/sd-logo.png)
+![ChargeTrack Legends splash screen](./doc/readme/splash-main.jpg)
 
 **ChargeTrack Legends (CTL)** is a private fork of [Speed Dreams](https://www.speed-dreams.net/) 2.4.2, a free and open source motorsport simulator originally forked from [TORCS](https://torcs.sourceforge.net/).
 
