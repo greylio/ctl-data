@@ -322,8 +322,8 @@
 	<attstr name="bump name" val=""/>
 	<attnum name="bump size" val="2.0" unit="m"/>
 
-	<attnum name="friction"           val="0.4"/>
-	<attnum name="rolling resistance" val="0.08"/>
+	<attnum name="friction"           val="0.7"/>
+	<attnum name="rolling resistance" val="0.35"/>
 
 	<attnum name="roughness" val="0.05"/>
 	<attnum name="roughness wavelength" val="0.5"/>
@@ -344,8 +344,8 @@
 	<attstr name="bump name" val=""/>
 	<attnum name="bump size" val="2.0" unit="m"/>
 
-	<attnum name="friction"           val="0.6"/>
-	<attnum name="rolling resistance" val="0.12"/>
+	<attnum name="friction"           val="0.75"/>
+	<attnum name="rolling resistance" val="0.40"/>
 
 	<attnum name="roughness" val="0.03"/>
 	<attnum name="roughness wavelength" val="4.0"/>
@@ -366,8 +366,8 @@
 	<attstr name="bump name" val=""/>
 	<attnum name="bump size" val="2.0" unit="m"/>
 
-	<attnum name="friction"           val="0.9"/>
-	<attnum name="rolling resistance" val="0.12"/>
+	<attnum name="friction"           val="0.85"/>
+	<attnum name="rolling resistance" val="0.30"/>
 
 	<attnum name="roughness" val="0.02"/>
 	<attnum name="roughness wavelength" val="4.0"/>
@@ -388,8 +388,8 @@
 	<attstr name="bump name" val=""/>
 	<attnum name="bump size" val="2.0" unit="m"/>
 
-	<attnum name="friction"           val="0.8"/>
-	<attnum name="rolling resistance" val="0.12"/>
+	<attnum name="friction"           val="0.80"/>
+	<attnum name="rolling resistance" val="0.30"/>
 
 	<attnum name="roughness" val="0.04"/>
 	<attnum name="roughness wavelength" val="8.0"/>
@@ -779,9 +779,9 @@
 	<attstr name="bump name" val=""/>
 	<attnum name="bump size" val="2.0" unit="m"/>
 
-	<attnum name="friction"           val="0.4"/>
-	<attnum name="friction rain"      val="0.2"/>
-	<attnum name="rolling resistance" val="0.08"/>
+	<attnum name="friction"           val="0.7"/>
+	<attnum name="friction rain"      val="0.5"/>
+	<attnum name="rolling resistance" val="0.35"/>
 
 	<attnum name="roughness" val="0.05"/>
 	<attnum name="roughness wavelength" val="0.5"/>
@@ -804,8 +804,8 @@
 	<attstr name="bump name" val=""/>
 	<attnum name="bump size" val="2.0" unit="m"/>
 
-	<attnum name="friction"           val="0.4"/>
-	<attnum name="rolling resistance" val="0.08"/>
+	<attnum name="friction"           val="0.7"/>
+	<attnum name="rolling resistance" val="0.35"/>
 
 	<attnum name="roughness" val="0.05"/>
 	<attnum name="roughness wavelength" val="0.5"/>
@@ -1073,8 +1073,8 @@
 	<attstr name="bump name" val=""/>
 	<attnum name="bump size" val="2.0" unit="m"/>
 
-	<attnum name="friction"           val="0.4"/>
-	<attnum name="rolling resistance" val="0.08"/>
+	<attnum name="friction"           val="0.7"/>
+	<attnum name="rolling resistance" val="0.35"/>
 
 	<attnum name="roughness" val="0.05"/>
 	<attnum name="roughness wavelength" val="0.8"/>
@@ -1163,8 +1163,8 @@
 	<attstr name="bump name" val=""/>
 	<attnum name="bump size" val="2.0" unit="m"/>
 
-	<attnum name="friction"           val="0.6"/>
-	<attnum name="rolling resistance" val="0.12"/>
+	<attnum name="friction"           val="0.75"/>
+	<attnum name="rolling resistance" val="0.40"/>
 
 	<attnum name="roughness" val="0.03"/>
 	<attnum name="roughness wavelength" val="0.1"/>
@@ -1185,8 +1185,8 @@
 	<attstr name="bump name" val=""/>
 	<attnum name="bump size" val="2.0" unit="m"/>
 
-	<attnum name="friction"           val="0.6"/>
-	<attnum name="rolling resistance" val="0.13"/>
+	<attnum name="friction"           val="0.75"/>
+	<attnum name="rolling resistance" val="0.40"/>
 
 	<attnum name="roughness" val="0.03"/>
 	<attnum name="roughness wavelength" val="4.0"/>
@@ -1251,8 +1251,8 @@
 	<attstr name="bump name" val=""/>
 	<attnum name="bump size" val="2.0" unit="m"/>
 
-	<attnum name="friction"           val="0.4"/>
-	<attnum name="rolling resistance" val="0.09"/>
+	<attnum name="friction"           val="0.7"/>
+	<attnum name="rolling resistance" val="0.35"/>
 
 	<attnum name="roughness" val="0.05"/>
 	<attnum name="roughness wavelength" val="0.5"/>
